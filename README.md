@@ -8,7 +8,8 @@
 
 - pionl/node-with-i386:8
 - pionl/node-with-i386:9
-- pionl/node-with-i386:lastest (node 9)
+- pionl/node-with-i386:10
+- pionl/node-with-i386:latest (node 9)
 
 ```docker
 FROM pionl/node-with-i386:8
