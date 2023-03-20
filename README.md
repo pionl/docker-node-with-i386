@@ -1,23 +1,56 @@
-# Docker image based on official node i386 architecture installed
+# Docker image based on official node i386 architecture installed (for CI environment)
 
-## Pre-installed packages:
+This package can be using for building windows packages using [vercel/pkg](https://github.com/vercel/pkg).
 
-- libc6:i386 libstdc++6:i386
-
-## Tags:
-
-- pionl/node-with-i386:8
-- pionl/node-with-i386:9
-- pionl/node-with-i386:10
-- pionl/node-with-i386:latest (node 9)
-
-```docker
-FROM pionl/node-with-i386:8
+## Usage
+```
+docker run pionl/node-with-i386:18 node --version
 ```
 
-## Contribution
+### Gitlab CI usage
 
-1. Change the `Dockerfile.template`
-2. Edit `build.sh` if new version is added
-3. Run `build.sh` to build images
-4. Run `build.sh deploy` to build and push images
+Gitlab CI usage
+
+```shell
+image: pionl/node-with-i386:18
+```
+
+### Tags
+
+![https://github.com/pionl/node-with-i386](https://img.shields.io/github/license/pionl/node-with-i386?style=flat-square)
+![](https://img.shields.io/docker/pulls/pionl/node-with-i386?style=flat-square) ![](https://img.shields.io/docker/stars/pionl/node-with-i386?style=flat-square)
+
+Image | Badges
+ --- | ---
+**pionl/node-with-i386:latest** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/latest?style=flat-square)
+**pionl/node-with-i386:18** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/18?style=flat-square)
+**pionl/node-with-i386:12** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/12?style=flat-square)
+**pionl/node-with-i386:10** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/10?style=flat-square)
+**pionl/node-with-i386:9** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/9?style=flat-square)
+**pionl/node-with-i386:8** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/8?style=flat-square)
+
+
+## Built With
+
+> This package is powered by docker work flow cli tool [wf-docker](https://github.com/wrk-flow/wf-docker).
+
+* NodeJS (multiple versions)
+* libc6:i386 libstdc++6:i386
+
+## Find Us
+
+* [GitHub](https://github.com/pionl/node-with-i386)
+* [Docker Hub](https://cloud.docker.com/repository/docker/pionl/node-with-i386)
+
+## Contributions
+
+1. Run `npm install`
+2. Change the `Dockerfile.template`
+3. For new php versions edit `package.json` and `wf-docker.tags` property
+4. Use `npm run build` to build image
+
+> See package.json scripts for advanced usage or [wf-docker](https://github.com/wrk-flow/wf-docker)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
