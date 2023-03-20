@@ -4,7 +4,7 @@ This package can be using for building windows packages using [vercel/pkg](https
 
 ## Usage
 ```
-docker run pionl/node-with-i386:18 node --version
+docker run pionl/docker-node-with-i386:18 node --version
 ```
 
 ### Gitlab CI usage
@@ -12,22 +12,22 @@ docker run pionl/node-with-i386:18 node --version
 Gitlab CI usage
 
 ```shell
-image: pionl/node-with-i386:18
+image: pionl/docker-node-with-i386:18
 ```
 
 ### Tags
 
-![https://github.com/pionl/node-with-i386](https://img.shields.io/github/license/pionl/node-with-i386?style=flat-square)
-![](https://img.shields.io/docker/pulls/pionl/node-with-i386?style=flat-square) ![](https://img.shields.io/docker/stars/pionl/node-with-i386?style=flat-square)
+![https://github.com/pionl/docker-node-with-i386](https://img.shields.io/github/license/pionl/docker-node-with-i386?style=flat-square)
+![](https://img.shields.io/docker/pulls/pionl/docker-node-with-i386?style=flat-square) ![](https://img.shields.io/docker/stars/pionl/docker-node-with-i386?style=flat-square)
 
 Image | Badges
  --- | ---
-**pionl/node-with-i386:latest** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/latest?style=flat-square)
-**pionl/node-with-i386:18** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/18?style=flat-square)
-**pionl/node-with-i386:12** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/12?style=flat-square)
-**pionl/node-with-i386:10** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/10?style=flat-square)
-**pionl/node-with-i386:9** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/9?style=flat-square)
-**pionl/node-with-i386:8** | ![](https://img.shields.io/docker/image-size/pionl/node-with-i386/8?style=flat-square)
+**pionl/docker-node-with-i386:latest** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/latest?style=flat-square)
+**pionl/docker-node-with-i386:18** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/18?style=flat-square)
+**pionl/docker-node-with-i386:12** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/12?style=flat-square)
+**pionl/docker-node-with-i386:10** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/10?style=flat-square)
+**pionl/docker-node-with-i386:9** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/9?style=flat-square)
+**pionl/docker-node-with-i386:8** | ![](https://img.shields.io/docker/image-size/pionl/docker-node-with-i386/8?style=flat-square)
 
 
 ## Built With
@@ -39,8 +39,8 @@ Image | Badges
 
 ## Find Us
 
-* [GitHub](https://github.com/pionl/node-with-i386)
-* [Docker Hub](https://cloud.docker.com/repository/docker/pionl/node-with-i386)
+* [GitHub](https://github.com/pionl/docker-node-with-i386)
+* [Docker Hub](https://cloud.docker.com/repository/docker/pionl/docker-node-with-i386)
 
 ## Contributions
 

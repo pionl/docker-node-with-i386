@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Docker image based on official node i386 architecture installed (for CI environment)",
   "wf-docker": {
-    "image": "pionl/node-with-i386",
+    "image": "pionl/docker-node-with-i386",
     "tags": ["latest", "18", "12", "10", "9", "8"],
     "run": [
       "node --version"
